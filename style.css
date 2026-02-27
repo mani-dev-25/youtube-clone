@@ -174,3 +174,41 @@ body {
     border-bottom-right-radius: 20px;
     cursor: pointer;
 }
+@media (max-width: 768px) {
+
+    /* Hide sidebar */
+    .sidebar {
+        display: none;
+    }
+
+    /* Content full width */
+    .main-container {
+        left: 0;
+        padding: 15px;
+    }
+
+    /* Reduce search width */
+    .search-box input {
+        width: 50vw;
+        min-width: 100px;
+    }
+
+    /* Reduce header gap */
+    .header .left,
+    .header .center,
+    .header .right {
+        gap: 8px;
+    }
+
+}
+@media (max-width: 500px) {
+
+    .btn2 {
+        display: none;   /* hide Create button */
+    }
+
+    .search-box input {
+        width: 40vw;
+    }
+
+}
