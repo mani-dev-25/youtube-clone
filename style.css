@@ -184,9 +184,9 @@ body {
         left: 0;
         padding: 15px;
     }
-    .search-box input {
-        width: 50vw;
-        min-width: 100px;
+
+    .header {
+        padding: 0 10px;
     }
 
     .header .left,
@@ -195,15 +195,9 @@ body {
         gap: 8px;
     }
 
-}
-@media (max-width: 500px) {
-
-    .btn2 {
-        display: none;   
-    }
-
     .search-box input {
-        width: 40vw;
+        width: 45vw;
+        min-width: 80px;
     }
 
 }
